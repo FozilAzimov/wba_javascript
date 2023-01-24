@@ -1,1 +1,0 @@
-// Assalomu alaykum
