@@ -1,1 +1,2 @@
-// Assalomu alaykum
+// Assalomu alaykum!
+// Va alaykum assalom!
