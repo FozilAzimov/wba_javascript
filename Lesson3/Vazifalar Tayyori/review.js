@@ -1,4 +1,4 @@
-// Homework
+// 3-dars haqida;
 // Conditional branching "if, ?", Nullish coalescing operator "??";
 
 // 1) if else;
@@ -27,7 +27,7 @@
 // : console.log("Noto'g'ri qiymat kiritdingiz!");
 
 // 3) Nullish;
-// Nullish (??) huddi Logical operatordagi OR (||) ga o'xshab ishlaydi,
+// Nullish (??) huddi Logical operatordagi AND, OR ga o'xshab ishlaydi,
 // lekin nullishdagi belgi ikkita so'roq bo'ladi va bu tekshirub turi null va undefined qiymatlarda false,
 // qolgan qiymatlarda true qiymat qaytaradi;
 
