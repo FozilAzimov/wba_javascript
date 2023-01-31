@@ -5,17 +5,17 @@
 // else console.log("Siz noto'g'ri javob kiritdingiz");
 
 // 2-misol.
-// let num = -10;
-// if(num===1 && (String(num).length === 1)) console.log(`Kiritilgan raqam 1 ga teng`);
-// else if(num===-1) console.log(`Kiritilgan raqam -1 ga teng`);
-// else if(num===0) console.log(`Kiritilgan raqam 0 ga teng`);
+// let num = 0;
+// if (num === 0) console.log(0);
+// else if (num >= 1) console.log(1);
+// else if (num <= -1) console.log(-1);
 // else console.log(num);
 
 // 3-misol.
 // let a = 4, b = 3;
 // let result = a + b;
 // if (result < 4) console.log("Natija 4 dan kichik");
-// else console.log("Natija 4 ga teng yoki katta"); 
+// else console.log("Natija 4 ga teng yoki katta");
 
 // let a = 4, b = 3;
 // let result = a + b;
