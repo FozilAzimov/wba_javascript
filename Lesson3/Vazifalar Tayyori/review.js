@@ -1,4 +1,4 @@
-// 3-dars haqida;
+// 3-dars haqida...
 // Conditional branching "if, ?", Nullish coalescing operator "??";
 
 // 1) if else;

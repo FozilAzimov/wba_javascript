@@ -36,3 +36,44 @@
 //   : login == ""
 //   ? console.log("No login")
 //   : console.log("");
+
+// Qo'shimcha misollar
+
+// 1).
+// let son = 5;
+// son > 0 ? console.log(son + 1) : console.log(son);
+
+// 2).
+// let son = 0;
+// if (son > 0) console.log(son + 1);
+// else console.log(son - 2);
+
+// 3).
+// let son = 0;
+// if(son>0) console.log(++son);
+// else if(son<0) console.log(son-2);
+// else console.log("1"+son);
+
+// 4).
+// let a=7, b=10;
+// if(a>b){
+//   let c=0;
+//   c=a;
+//   a=b;
+//   b=c;
+//   console.log(`a = ${a}, b = ${b}`);
+// }
+// else{
+//   console.log(`a = ${a}, b = ${b}`);
+// }
+
+// 4).
+// let a = 2, b = 2;
+// if(a!==b){
+//   a=a+b, b=a;
+//   console.log(`a = ${a}, b = ${b}`);
+// }
+// else{
+//   a=0, b=0;
+//   console.log(`a = ${a}, b = ${b}`);
+// }
