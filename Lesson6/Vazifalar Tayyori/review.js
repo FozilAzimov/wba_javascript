@@ -61,6 +61,21 @@
 // delete obj.name;
 // console.log(obj); // {surname: "Academy"}
 
+// Bu yerda bir holat bor.Ya'ni biz objectni const veriable bilan declare qildink lekin uni ichidagi qiymatlarini o'zgartirsa bo'ladi;
+// Lekin Objectning o'zining nameni o'zgartirib bo'laydi; Misol:
+// const obj = {
+//   name: "Webbrain",
+//   surname: "Azimov",
+//   age: 4
+// }
+// obj.name = "IT Center";
+// delete obj.surname;
+// delete obj.age;
+// console.log(obj);
+
+// obj="newObj";
+// console.log(newObj); //Error.
+
 // 6).
 // Bizda bitta object bor. Shu object keylari va valuelarini alohida chiqarish kerak bo'lib qoladi.
 // Shunda bizga ,for in, yordamga keladi.
@@ -77,20 +92,46 @@
 // agar value kerak bo'lsa for in dagi obj[key] ga murojaat qilamiz;
 
 // 7).
-// Objectlarda Object.assign() metodi va spread operatori mavjud.
-// Bular asosan bir nechta objectlarni bitta object ko'rinishiga olib keladi. Lekin sintaksis xar xildir;
-// let obj1 = {
-//   name:'Toshmat',
-//   age: 20
-// }
-// let obj2 = {
-//   name:'Eshmat',
+// structuredClone() - bu oldingi holatlarda biz object copysini olganda, birinchi object qiymatini o'zgartirsak copy bo'lgan object qiymati ham o'zgaradi.
+// Lekin shuni ham oldini olsa bo'ladi.Albatta structuredClone() orqaki amalga oshiriladi.
+// let obj = {
+//   name: 'Eshmat',
 //   age: 23
 // }
-// let obj3 = {
-//   name:'Nurmat',
+// let newObj = structuredClone(obj);
+// console.log(newObj);
+// newObj.name = "Gulbashakar";
+// console.log(obj);
+// console.log(newObj);
+
+// 8).
+// Objectlarda Object.assign() metodi va spread operation   2 va undan ortiq objectlarni bitta objectga birlashtirib beradi, Agar objectdagi parametrlar har hil bo'lsa.
+// Agar parametrlar bir xil bo'lib qolsa eng oxiridagisini yangi parametr sifatida qabul qilib ketaveradi.
+// let obj1 = {
+//   name: 'Nurmat',
 //   age: 25
 // }
+// let obj2 = {
+//   year:2000
+// }
 
-// 1-si: Object.assign() metodi orqali ko'ramiz;
+// 1-si: spread operation orqali.
+// obj1 = {...obj1, ...obj2}
+// console.log(obj1);
 
+// 2-si: Object.assign() metodi orqali.
+// Object.assign(obj1, obj2);
+// console.log(obj1);
+
+// 9).
+// Garbage collection - bu biz bitta object ishlatdik va uni keyingi qatorlarda objectni null ga tenglashtirib ketdi.
+// Objectning oldingi qiymatlari nima bo'ladi degan savol paydo bo'ladi. Bu albatta avtomatik javascript tomonidan kesh xotira, ya'ni chiqindi idishiga olib tashlanadi.
+// Shu holat garbage collection deyiladi. Misoll:
+// let user = {
+//   name: "Ali",
+//   surName: "Maratov",
+//   year: 2000
+// }
+// user = null;
+// Shu holatda object qiymatlari chiqindi idishiga olibtashlanadi.Yn'ni garbage collection ishlatilmay qolgan cade larni tozalab turadi.
+// console.log(user);
