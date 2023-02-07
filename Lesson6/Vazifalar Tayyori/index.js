@@ -86,4 +86,4 @@
 //     if(obj[key]===value)console.log(`Key = ${key},\nValue = ${obj[key]}`);
 //   }
 // }
-// searchValue(obj, "qizil"); //=> atirgul, qizil
+// searchValue(obj, "qizil"); //=> atirgul, qizil;
