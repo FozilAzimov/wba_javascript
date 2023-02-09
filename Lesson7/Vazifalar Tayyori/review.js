@@ -41,7 +41,7 @@
 
 // 3). Number methodlari
 // - toString() methodi har doim bizga raqamni stringga aylantirib beradi, data typei ham string bo'lib qoladi.
-// let num = 5
+// let num = 5b
 // console.log(num.toString()); // natija: stringda 5 chiqadi.
 // Bundan tashqari toString() methodining yana bir xususiyati har qanday musbat sonni binary ko'rinishiga o'tkazib beradi.
 // console.log(num.toString(2)); //natija: 101;
@@ -72,6 +72,6 @@
 // 4). isNAN
 // isNaN bu bizga har doim true yoki false qiymatlarini qaytaradi.
 // Ya'ni isNaN degani (in - mi degani, NaN - not a number degani), berilgan qiymat number emasmi degan savolni bildiradi.
-// console.log(isNaN(2)); // false
-// console.log(isNaN("2")); // false
-// console.log(isNaN("2s")); // true
+// console.log(isNaN(2)); // false;
+// console.log(isNaN("2")); // false;
+// console.log(isNaN("2s")); // true;
