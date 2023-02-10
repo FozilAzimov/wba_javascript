@@ -1,4 +1,4 @@
-// Number
+// Number, Number methodlari, Math methodlari va String methodlarini bir qismini o'rganamiz.
 
 // 1).
 // Number - premitive data type tipiga kiruvchi ma'lumot turi. Biz har doim matemtik ifodalar bilan ishlaganimizda numberlarga duch kelamiz.
@@ -83,7 +83,7 @@
 // let str2 = "Assalomu alaykum!";
 // let str3 = `Assalomu alaykum!`; // Bu bektikda yozilgan qiymatlarni har xil holatga o'tkazish mumkin;
 
-// 6). String '', "", ``.
+// 6). String ('', "", ``). ayrim methodlari;
 // 	-length
 // 	-toUpperCase()
 // 	-toLowerCase()

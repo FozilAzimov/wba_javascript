@@ -29,6 +29,12 @@
 // let randomInteger = (min, max) => parseInt(min + Math.random() * (max - min));
 // console.log(randomInteger(1, 50));
 
+// 5). String mavzusidagi savol: Berilgan stringda nechta katta harf nachta kichik harf qatnashganini chiqaring.
+// let text = `MashSgsJsYnsWq`; // Bu code faqat bir bo'g'inli so'zlar uchun o'rinlidir.
+// let maxRes = 0, minRes = 0;
+// for (value of text) value === value.toUpperCase() ? maxRes++ : minRes++;
+// console.log(`Katta harflar ${maxRes} ta, Kichik harflar ${minRes} ta`);
+
 
 // Math mathodlarini ruchnoy yozilgan holati
 
@@ -97,9 +103,3 @@
 //   else console.log(NaN);
 // }
 // getFunc(0)
-
-// 5). String mavzusidagi savol: Berilgan stringda nechta katta harf nachta kichik harf qatnashganini chiqaring.
-// let text = `MashSgsJsYnsWq`;
-// let maxRes = 0, minRes = 0;
-// for (value of text) value === value.toUpperCase() ? maxRes++ : minRes++;
-// console.log(`Katta harflar ${maxRes} ta, Kichik harflar ${minRes} ta`);
