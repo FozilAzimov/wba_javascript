@@ -97,3 +97,9 @@
 //   else console.log(NaN);
 // }
 // getFunc(0)
+
+// 5). String mavzusidagi savol: Berilgan stringda nechta katta harf nachta kichik harf qatnashganini chiqaring.
+// let text = `MashSgsJsYnsWq`;
+// let maxRes = 0, minRes = 0;
+// for (value of text) value === value.toUpperCase() ? maxRes++ : minRes++;
+// console.log(`Katta harflar ${maxRes} ta, Kichik harflar ${minRes} ta`);

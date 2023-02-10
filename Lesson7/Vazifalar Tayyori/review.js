@@ -1,7 +1,7 @@
 // Number
 
 // 1).
-// Number - biz har doim matemtik ifodalar bilan ishlaganimizda numberlarga duch kelamiz.
+// Number - premitive data type tipiga kiruvchi ma'lumot turi. Biz har doim matemtik ifodalar bilan ishlaganimizda numberlarga duch kelamiz.
 // Numberning ko'rinishi turli hil bo'ladi ya'ni 2,53,6,8,4 ko'rinishidagi raqamlar bu butun sonlardir.
 // 1.34, 23.4, 5.1 ko'rinishidagi sonlar esa haqiqiy sonlar ya'ni kasr sonlar deb aytiladi.
 // Bu sonlar manfiy yoki musbat bo'lish ham mumkin, buning darqi yoq.
@@ -75,3 +75,53 @@
 // console.log(isNaN(2)); // false;
 // console.log(isNaN("2")); // false;
 // console.log(isNaN("2s")); // true;
+
+// 5). String
+// String - bu premitive data type tipiga kiruvchi ma'lumot turi.Uni 3 xil yo'l bilan yaratish mumkin.('', "", ``)
+// Bu qo'shtirnoqlarning vazifasida farqi bor. ('', "") bu ikki qo'shtirnoq oldindan bor. Lekin (``) bektik esa ES6 versiyasida qo'shilgan
+// let str1 = 'Assalomu alaykum!';
+// let str2 = "Assalomu alaykum!";
+// let str3 = `Assalomu alaykum!`; // Bu bektikda yozilgan qiymatlarni har xil holatga o'tkazish mumkin;
+
+// 6). String '', "", ``.
+// 	-length
+// 	-toUpperCase()
+// 	-toLowerCase()
+// 	-indexOf()
+// 	-includes()
+// 	-startsWidth()
+// 	-endsWidth()
+
+// 7). String methods
+//1.  -lenght
+// Biz length methodidan qiymat uzunligini bilib olaishimiz mumkin.
+// let str = "Webbrain Academy";
+// console.log(str.length); //Natija: 16
+// 2. -toUpperCase()
+// Bu method qiymatning barchasini katta qilib beradi(agar u text bo'lsa).
+// let str = "Webbrain Academy";
+// console.log(str.toUpperCase()); //Natija: WEBBRAIN ACADEMY
+// 3. -toLowerCase()
+// Bu method qiymatni hammasini kichik qilib beradi(agar u text bo'lsa).
+// let str = "Webbrain Academy";
+// console.log(str.toLowerCase()); //Natija: webbrain academy
+// 4. -indexOf()
+// Bu method oddiy qavs ichiga qiymat kiritamiz va shu kiritgan qiymat asosiy berilgan text ichidaa bor bo'lsa kiritilgan qiymatning indexni chiqarib beradi.
+// let str = "Webbrain Academy";
+// console.log(str.indexOf("a")); //Natija: 5 
+// 5. -includes()
+// Bu method ishlashi indexOf() methodiga o'xshab ketdi lekin u qiymat indexni emas bor bo'lsa true, yo'q bo'lsa false natija qaytaradi.
+// let str = "Webbrain Academy";
+// console.log(str.includes("w")); //Natija: false
+// 6. -startsWith()
+// Bu method berilgan qiymatning boshlanishidagi element biz startsWith() ga kiritgan qiymat bilan boshlanadimi yoki yo'qmi shuni tekshiradi va Natijaga agar boshlansa true, boshlanmasa false qaytaradi.
+// let str = "Webbrain Academy";
+// console.log(str.startsWith("web")); //Natija: false
+// let num = "+998939484001";
+// console.log(num.startsWith("+998")); //Natija: true
+// 7. -endsWith()
+// Bu method startsWith() ga teslari ishlaydi, ya'ni qiymatning oxiri biz kiritgan element bilan tugaydimi yoki yo'qmi shuni tekshiradi.
+// let str = "Webbrain Academy";
+// console.log(str.endsWith("demy")); //Natija: true
+
+//  Bu darsda String mavzusini bir qismini tushindik. Keyingi darsda to'liq String haqida ma'lumot olamiz
