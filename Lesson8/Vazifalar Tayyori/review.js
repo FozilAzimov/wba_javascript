@@ -1,4 +1,5 @@
 // String davomi...
+// Biz o'tgan darsda String methodlaridan: toUpperCase(),toLowerCase(),indexOf(),lastIndexOf(),startsWith(),endsWith(),length shularni ko'rgan edik.
 
 // padStart(), padEnd()
 // let a = "Salom";
