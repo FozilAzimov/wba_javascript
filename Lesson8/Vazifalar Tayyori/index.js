@@ -28,30 +28,52 @@
 // }
 // console.log(newMp);
 
+// 2-misolning Optimal yechimi
+// let text = "Webbrain";
+// text = text.toLowerCase();
+// let newObj = {};
+// for (value of text) {
+//   if (value in newObj) newObj[value]++;
+//   else newObj[value] = 1;
+// }
+// console.log(newObj);
+
 // 3).
 // let truncate = (str, n) => str.slice(0,n);
-// console.log(truncate("Webbrain", 3));
+// console.log(truncate("Webbrain", 0));
 
 // 4).
-// let func = (str) => +str.slice(1);
-// console.log(func("$2392"));
+// let func = (str) => {
+//   let newStr = "";
+//   for (value of str) {
+//     if (!isNaN(value)) newStr=newStr+value;
+//   }
+//   return +newStr;
+// }
+// console.log(func("$2392$"));
 
 // 5).
 // let text = "Webbr@!n_2023";
-// let letter=0,char=0,number=0;
-// let obj = {};
+// let obj = { letter: 0, char: 0, number: 0 };
 // for (value of text) {
-//   if (value.charCodeAt(0)>=48&&value.charCodeAt(0)<=57)number++;
-//   else if(value.charCodeAt(0)>=65&&value.charCodeAt(0)<=90)letter++;
-//   else if(value.charCodeAt(0)>=97&&value.charCodeAt(0)<=122)letter++;
-//   else char++;
+//   if (value.charCodeAt(0) >= 48 && value.charCodeAt(0) <= 57) obj.number++;
+//   else if (value.charCodeAt(0) >= 65 && value.charCodeAt(0) <= 90) obj.letter++;
+//   else if (value.charCodeAt(0) >= 97 && value.charCodeAt(0) <= 122) obj.letter++;
+//   else obj.char++;
 // }
-// obj.letter=letter;
-// obj.char=char;
-// obj.number=number;
 // console.log(obj);
-// console.log(text.charCodeAt(0));
+
+// 5-misolning soddaroq ishlanish yo'li
+// let text = "Webbr@!n_2023";
+// let textLower = text.toLocaleLowerCase();
+// let obj = { letter: 0, char: 0, number: 0 };
+// for(value of textLower){
+//   if(value.toUpperCase()!==value.toLowerCase())obj["letter"]++;
+//   else if(!isNaN(value))obj["number"]++;
+//   else obj["char"]++;
+// }
+// console.log(obj);
 
 // 6).
-// let textFristUpper=(text)=> text.split(" ").map(newName => newName[0].toUpperCase()+newName.slice(1)).join("");
-// console.log(textFristUpper("assalomu alaykum hammaga"));
+// let textFristUpper=(text)=> text.toLowerCase().split(" ").map(newName => newName[0].toUpperCase()+newName.slice(1)).join(" ");
+// console.log(textFristUpper("assalomu alayku hammaga"));
