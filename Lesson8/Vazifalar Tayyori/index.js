@@ -43,14 +43,9 @@
 // console.log(truncate("Webbrain", 0));
 
 // 4).
-// let func = (str) => {
-//   let newStr = "";
-//   for (value of str) {
-//     if (!isNaN(value)) newStr=newStr+value;
-//   }
-//   return +newStr;
-// }
-// console.log(func("$2392$"));
+// let n = "@536$63^!5352",str = "";
+// for (i of n) if (!isNaN(i)) str += i;
+// console.log(+str);
 
 // 5).
 // let text = "Webbr@!n_2023";
