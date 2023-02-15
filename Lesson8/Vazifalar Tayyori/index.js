@@ -72,3 +72,48 @@
 // 6).
 // let textFristUpper=(text)=> text.toLowerCase().split(" ").map(newName => newName[0].toUpperCase()+newName.slice(1)).join(" ");
 // console.log(textFristUpper("assalomu alayku hammaga"));
+
+// Qo'shimcha misollar
+// let str = 'Webbrain';
+// let newStr = str.split(" ").join("").toLowerCase();
+// let obj = {};
+// for (value of newStr) {
+//   if (value in obj) obj[value]++;
+//   else obj[value] = 1;
+// }
+// console.log(obj);
+// Natija: { w: 1, e: 1, b: 2, r: 1, a: 1, i: 1, n: 1 }
+
+// Berilgan: '123'
+// let n = '123',uch = n % 0b1010;
+// (uch === 0b1001)?console.log((n - 0b1001).toString()):console.log((+n + 0b0001).toString());
+//Natija: '124'
+
+// 1).
+// let a = -5.678;
+// console.log(Math.round(a)); // -6
+// console.log(Math.floor(a)); // -6
+// console.log(Math.trim(a)); // -5
+// console.log(Math.sign(a)); // -1
+// console.log(parseInt(a)); // -5
+
+// 2).
+// let title = "name";
+// let obj = {
+//   name:"webbrain",
+//   title:"IT Center",
+//   [title]:"webbrain academy",
+//   title,
+// }
+// console.log(obj[title]); //webbrain academy
+// console.log(obj.title); //name
+// console.log(obj.name); //webbrain academy
+
+// 3).
+// console.log('webbrain' || true); // webbrain
+// console.log('webbrain' && true); // true
+// console.log('webbrain' ?? true); // webbrain
+// console.log('===================');
+// console.log(null || 'webbrain'); // webbrain
+// console.log(null && 'webbrain'); // null
+// console.log(null ?? 'webbrain'); // webbrain
