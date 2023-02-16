@@ -117,3 +117,32 @@
 // console.log(null || 'webbrain'); // webbrain
 // console.log(null && 'webbrain'); // null
 // console.log(null ?? 'webbrain'); // webbrain
+
+// 4).
+// console.log(eval([1,2,3,4,5,6,7,8,9].join('+')));
+
+// 5).
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let res = arr.filter((a, b) => a % 2 === 0);
+// console.log(res);
+
+// 6).
+// let arr = [1, 8, 9];
+// let num = +arr.join("");
+// var bir = parseInt(num / 100);
+// var ikki = parseInt(num / 10) % 10;
+// var uch = num % 10;
+// if (uch === 9) {
+//   num++;
+//   var bir = parseInt(num / 100);
+//   var ikki = parseInt(num / 10) % 10 - 1;
+//   var uch = num % 10;
+//   console.log([bir, ikki, uch]);
+// }
+// else{
+//   num++;
+//   var bir = parseInt(num / 100);
+//   var ikki = parseInt(num / 10) % 10;
+//   var uch = num % 10;
+//   console.log([bir, ikki, uch]);
+// }
