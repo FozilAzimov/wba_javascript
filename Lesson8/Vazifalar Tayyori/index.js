@@ -145,4 +145,29 @@
 //   var ikki = parseInt(num / 10) % 10;
 //   var uch = num % 10;
 //   console.log([bir, ikki, uch]);
-// }
+// }continuation of string methods
+
+let obj = {
+  id:1,
+  name:"Umar",
+  age:20,
+  child:{
+    id:1,
+    name:"Salim",
+    age:30,
+    child:{
+      id:1,
+      name:"Alim",
+      age:25
+    }
+  }
+}
+let sum = 0;
+while(1){
+  if(obj.child){
+    sum+=obj.age;
+  }
+  else break;
+  obj=obj.child;
+}
+console.log(sum);
