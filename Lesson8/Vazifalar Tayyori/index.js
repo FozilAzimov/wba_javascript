@@ -145,4 +145,34 @@
 //   var ikki = parseInt(num / 10) % 10;
 //   var uch = num % 10;
 //   console.log([bir, ikki, uch]);
-// }continuation of string methods
+// }
+
+// 7).
+// let obj = {
+//   id: 1, name: "Umar", age: 20,
+//   child: {
+//     id: 1, name: "Salim", age: 25,
+//     child: {
+//       id: 1, name: "Alim", age: 16,
+//       child: {
+//         id: 1, name: "Vali", age: 18,
+//         child: {
+//           id: 1, name: "Murod", age: 15,
+//           child: {
+//             id: 1, name: "Maqsad", age: 22,
+//             child: {
+//               id: 1, name: "Hayyom", age: 17,
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// while (1) {
+//   if (obj) {
+//     if (obj.age >= 18) console.log(`ismi: ${obj.name}, yoshi: ${obj.age}`);
+//   }
+//   else break;
+//   obj = obj.child;
+// }
