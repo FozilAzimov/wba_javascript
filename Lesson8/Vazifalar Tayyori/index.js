@@ -189,3 +189,9 @@
 //   else break;
 //   obj = obj.child;
 // }
+
+// 8).
+// let str1 = 'AgshsB';
+// let str2 = 'AgshsB';
+// if(str1.split('').sort((a,b)=> a.localeCompare(b)).join("")===str2.split('').sort((a,b)=> a.localeCompare(b)).join("")) console.log(true);
+// else console.log(false);
