@@ -38,6 +38,19 @@
 // }
 // console.log(newObj);
 
+// 2-misolning qiymati number bo'lgan paytdagi eng optimal yechimi 3 ta ko'rinishda;
+// const num = "12345432", obj = {};
+// for (i of num) i in obj ? obj[i]++ : obj[i] = 1;
+// console.log(obj);
+
+// const num = "12345432", obj = {};
+// num.split('').map(value => (value in obj ? obj[value]++ : obj[value] = 1));
+// console.log(obj);
+
+// const num = "12345432", obj = {};
+// num.split('').forEach(value => (value in obj ? obj[value]++ : obj[value] = 1));
+// console.log(obj);
+
 // 3).
 // let truncate = (str, n) => str.slice(0,n);
 // console.log(truncate("Webbrain", 0));
