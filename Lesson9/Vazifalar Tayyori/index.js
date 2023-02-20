@@ -37,3 +37,17 @@
 //   }))
 // }
 // console.log(func("status"));
+
+// 3).
+// let arr1 = [1,2,3,5];
+// let arr2 = [6,5,2,9];
+// let arr = arr1.concat(arr2);
+// if(arr.length%2===0){
+//   let a = parseInt(arr.length/2-1);
+//   let b = parseInt(arr.length/2);
+//   console.log((arr[a]+arr[b])/2);
+// }
+// else{
+//   let a = parseInt(arr.length/2);
+//   console.log(arr[a]);
+// }
