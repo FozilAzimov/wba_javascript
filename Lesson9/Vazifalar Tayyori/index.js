@@ -51,3 +51,23 @@
 //   let a = parseInt(arr.length/2);
 //   console.log(arr[a]);
 // }
+
+// 4).
+// let user = [
+//   { name: 'Foziljon', status: 'Talaba' },
+//   { name: 'Azimjon', status: 'Oqituvchi' },
+//   { name: 'Mahmudjon', status: 'Menedjer' },
+//   { name: 'Behruz', status: 'Jora' },
+//   { name: 'Muhammadali', status: 'Talaba' },
+//   { name: 'Shoyatbek', status: 'Assissent' },
+//   { name: 'Eldor', status: 'Assissent' },
+// ]
+// let res = user.map(value => Object.values(value).join('')).join('').split('');
+// let func = (p) => {
+//   let count = 0
+//   res.map(item => {
+//     if (item === p) return count++;
+//   })
+//   return count;
+// }
+// console.log(func('A'));
