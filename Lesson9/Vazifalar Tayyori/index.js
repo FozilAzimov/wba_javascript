@@ -71,3 +71,16 @@
 //   return count;
 // }
 // console.log(func('A'));
+
+// 5).
+// let arr = [1, 2, 3, 4, 5, 6, 5, 4, 4, 3, 3, 2, 3, 5];
+// let func = (p) => {
+//   let obj = {};
+//   for (i of arr) {
+//     for (j of arr) {
+//       if (i + j === p) obj[i] = j;
+//     }
+//   }
+//   return Object.entries(obj);
+// }
+// console.log(func(8));
