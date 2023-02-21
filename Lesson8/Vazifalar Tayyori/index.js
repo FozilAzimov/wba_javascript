@@ -102,6 +102,8 @@
 // (uch === 0b1001)?console.log((n - 0b1001).toString()):console.log((+n + 0b0001).toString());
 //Natija: '124'
 
+
+// Teat masalalari.
 // 1).
 // let a = -5.678;
 // console.log(Math.round(a)); // -6
@@ -131,15 +133,16 @@
 // console.log(null && 'webbrain'); // null
 // console.log(null ?? 'webbrain'); // webbrain
 
-// 4).
+// Mustaqil ishlash uchun masalalar.
+// 1).
 // console.log(eval([1,2,3,4,5,6,7,8,9].join('+')));
 
-// 5).
+// 2).
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // let res = arr.filter((a, b) => a % 2 === 0);
 // console.log(res);
 
-// 6).
+// 3).
 // let arr = [1, 8, 9];
 // let num = +arr.join("");
 // var bir = parseInt(num / 100);
@@ -160,7 +163,7 @@
 //   console.log([bir, ikki, uch]);
 // }
 
-// 7).
+// 4).
 // let obj = {
 //   id: 1, name: "Umar", age: 20,
 //   child: {
@@ -190,7 +193,7 @@
 //   obj = obj.child;
 // }
 
-// 8).
+// 5).
 // let str1 = 'AgshsB';
 // let str2 = 'AgshsB';
 // if(str1.split('').sort((a,b)=> a.localeCompare(b)).join("")===str2.split('').sort((a,b)=> a.localeCompare(b)).join("")) console.log(true);
