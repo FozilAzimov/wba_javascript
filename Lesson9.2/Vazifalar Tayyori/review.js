@@ -30,4 +30,103 @@
 // flatMap() - bu flat() va map() methodlari ishini bitta o'zi bajarib beradi.
 
 // reduce() - bu array bilan ishlashning jiddiyroq usuli hisoblanadi. Ya'ni reducening 1-qiymati colback function, 2-qiymati esa (0) nol hisoblanadi.
-// Array ichidaqi raqamlar yig'indisini hisoblashda qolgan methodlarga nisbatan yaxshi method hisoblanadi.
+// Array ichidaqi raqamlar yig'indisini hisoblashda qolgan methodlarga nisbatan yaxshi method hisoblanadi. reduce() return nima qyatarsa shu natijani o'zlashtiradi.
+
+// PRACTICES
+
+// let str = "123456789";
+// let arr = Array.from(str,(value)=>{
+//   return value*2; 
+// });
+// console.log(arr);
+
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let res = arr.filter((value,index)=>{
+//   if(value%2!==0) return value;
+// })
+// console.log(res);
+
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let res = arr.find(value=>{
+//   console.log(value);
+//   return value === 3;
+// });
+// console.log("========");
+// console.log(res);
+
+
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let res = arr.filter(value=>{
+//   console.log(value);
+//   return value === 3;
+// });
+// console.log("========");
+// console.log(res);
+
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let res = arr.findIndex(value=>{
+//   console.log(value);
+//   return value === 3;
+// });
+// console.log("========");
+// console.log(res);
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let res = arr.findLastIndex(value=>{
+//   console.log(value);
+//   return value === 3;
+// });
+// console.log("========");
+// console.log(res);
+
+// let arr = ['olma', 'anor', 'shaftoli', 'uzum'];
+// let res = arr.sort((a,b)=>a.localeCompare(b))
+// console.log(res);
+
+// let arr = [1,2,3,4,5];
+// let res = arr.every((value, index)=>{
+//   return index;
+// })
+// console.log(res);
+
+// let arr = [0,false, null, undefined];
+// let res = arr.some(value=>{
+//   return value;
+// })
+// console.log(res);
+
+// let arr = [1,2,3,4,5];
+// let res = arr.forEach((value,index)=>{
+//   console.log(value*2);
+// })
+// console.log(res);
+
+// let arr = [1,2,3,4,5];
+// let res = arr.map((value,index)=>{
+//   console.log(value);
+//   return value;
+// })
+// console.log(res);
+
+// let arr = [1,2,3,4,5];
+// let res = arr.fill("salom",0,4)
+// console.log(res);
+
+// let arr = [1,2,3,4,5];
+// console.log(arr);
+// let res = arr.copyWithin(0,2,4)
+// console.log(res);
+
+// let ar = [1,[2,3,[4,5,[6,7]]]];
+// console.log(ar.flat(Infinity));
+
+// let ar = [1,[2,3,[4,5,[6,7]]]];
+// let res = ar.flatMap(v=>{
+//   return v;
+// });
+// console.log(res);
+
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let res = arr.reduce((sum,current)=>{
+//   return sum+current;
+// },0)
+// console.log(res);

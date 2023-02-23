@@ -21,8 +21,12 @@
 // console.log(arr1!=arr2); // true
 
 // 4).
-
-
+// let func = (str) => {
+//   let newStr = "";
+//   str.split("-").map((v, i) => i === 0 ? newStr = v : newStr += v[0].toUpperCase()+v.slice(1));
+//   return newStr;
+// }
+// console.log(func("webbrain-academy"));
 
 // 5).
 // let users = [
