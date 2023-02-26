@@ -84,13 +84,13 @@
 
 
 
-// 10).
+// 10.1).
 // let obj = {id:1, name:"webbrain",age:4};
 // for(i in obj){
 //   console.log(i);
 // }
 
-// 11).
+// 10.2).
 // let obj = {
 //   title:"Webbrain",
 //   age:4,
@@ -109,7 +109,7 @@
 // }
 // console.log(sum);
 
-// 12).
+// 11).
 // let obj = {
 //   id:1,
 //   name:"webbrain",
@@ -121,7 +121,7 @@
 //   if(typeof obj[i] === "boolean")console.log(`${i}:${obj[i]}`);
 // }
 
-// 13).
+// 12.1).
 // 1-usul
 // let func = (num)=>{
 //   let res = num.filter((v,i)=>{
@@ -141,14 +141,48 @@
 // }
 // func([2, 3, 5, 3, 2, 3, 6, 8, 7, 6]);
 
-// 14).
+// 12.2).
 // let ar1 = [1,2,3];
 // let ar2 = [1,2,3];
 // console.log(ar1.join("")===ar2.join(""));
 
-// 15).
+// 12.3).
 // let arr = [1, 64, 8, 27, 64, 125];
 // let res = arr.filter(v => {
 //   if (!isNaN(v)) return v >= 10 && v < 100;
 // });
 // console.log(res);
+
+// 13).
+// let arr = [2,3,2,4,5,1,3];
+// console.log(arr);
+// let i = 0
+// while (1) {
+//   if(arr.length>1){
+//     let res1 = arr.reduce((sum, curr) => {
+//       if (curr > sum) {
+//         sum = curr;
+//       }
+//       return sum;
+//     }, arr[0])
+//     let index1 = arr.indexOf(res1);
+//     arr.splice(index1, 1);
+//     //Birinchi katta son topish
+  
+//     let res2 = arr.reduce((sum, curr) => {
+//       if (curr > sum) {
+//         sum = curr;
+//       }
+//       return sum;
+//     }, arr[0])
+//     let index2 = arr.indexOf(res2);
+//     arr.splice(index2, 1);
+//     //Ikkinchi katta son topish
+  
+//     let res = Math.abs(res1 - res2);
+//     res ? arr.splice(index1, 0, res) : arr;
+//     console.log(arr);
+//     i++;
+//   }
+//   else break;
+// }
