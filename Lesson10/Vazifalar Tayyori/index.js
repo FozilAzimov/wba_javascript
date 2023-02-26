@@ -28,6 +28,13 @@
 
 
 
+
+
+
+
+
+
+
 // 4).
 // 1-usul
 // let str = "We66ra1n Acad4my";
@@ -114,4 +121,34 @@
 //   if(typeof obj[i] === "boolean")console.log(`${i}:${obj[i]}`);
 // }
 
+// 13).
+// 1-usul
+// let func = (num)=>{
+//   let res = num.filter((v,i)=>{
+//     return num.indexOf(v)===i;
+//   })
+//   console.log(res);
+// }
+// func([2, 3, 5, 3, 2, 3, 6, 8, 7, 6]);
 
+// 2-usul
+// let func = (num)=>{
+//   let res = num.reduce((sum, value) => {
+//     if (sum.indexOf(value)<0) sum.push(value);
+//     return sum;
+//   }, [])
+//   console.log(res);
+// }
+// func([2, 3, 5, 3, 2, 3, 6, 8, 7, 6]);
+
+// 14).
+// let ar1 = [1,2,3];
+// let ar2 = [1,2,3];
+// console.log(ar1.join("")===ar2.join(""));
+
+// 15).
+// let arr = [1, 64, 8, 27, 64, 125];
+// let res = arr.filter(v => {
+//   if (!isNaN(v)) return v >= 10 && v < 100;
+// });
+// console.log(res);

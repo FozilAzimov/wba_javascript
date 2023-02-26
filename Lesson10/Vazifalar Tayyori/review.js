@@ -32,6 +32,15 @@
 // }
 // func(5);
 
+// 4).
+// let func = (data) => {
+//   let res = user.filter(value => {
+//     return (value.id === data.id || value.name.includes(data.name) || value.surname.includes(data.surname) || value.age === data.age);
+//   })
+//   console.log(res);
+// }
+// func({ id: 5 });
+
 // Delete ->
 // 4).
 // let func = (id1, id2, id3) => {
