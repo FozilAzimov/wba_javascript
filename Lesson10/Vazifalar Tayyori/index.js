@@ -1,4 +1,4 @@
-// Homework
+// Qo'shimcha ishlanishi kerak bo'lgan misollar.
 
 // 1).
 // let str = "Webbrain Academy";
@@ -25,15 +25,6 @@
 // console.log(newStr);
 
 // 3).
-
-
-
-
-
-
-
-
-
 
 // 4).
 // 1-usul
@@ -81,8 +72,6 @@
 // console.log(obj);
 
 // 9).
-
-
 
 // 10.1).
 // let obj = {id:1, name:"webbrain",age:4};
@@ -153,7 +142,7 @@
 // });
 // console.log(res);
 
-// 13).
+// 13). Homework
 // let arr = [2,3,2,4,5,1,3];
 // console.log(arr);
 // let i = 0
@@ -179,7 +168,7 @@
 //     arr.splice(index2, 1);
 //     //Ikkinchi katta son topish
   
-//     let res = Math.abs(res1 - res2);
+//     let res = res1 - res2;
 //     res ? arr.splice(index1, 0, res) : arr;
 //     console.log(arr);
 //     i++;
