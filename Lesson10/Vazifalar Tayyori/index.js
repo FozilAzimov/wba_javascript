@@ -11,20 +11,18 @@
 
 // 2).
 // let str = "WebBr@in Ac@demy";
-// let res = newStr.split("").map((v,i)=>{
+// let res = str.split("").map(v=>{
 //   if(v==="@")v="a";
 //   return v;
 // })
 // console.log(res.join(""));
 
-// let str = "webbbraiiin accaddemmy";
-// let newStr = "";
-// let res = str.split("").filter(v=>{
-//   if()newStr+=v;
-// })
-// console.log(newStr);
-
 // 3).
+// let str = "webbbrraiiin accaddemmy", i = 0;
+// let res = str.split("").filter((v, i, arr) => {
+//   if (arr[i] !== arr[i + 1]) return v;
+// })
+// console.log(res.join(""));
 
 // 4).
 // 1-usul
