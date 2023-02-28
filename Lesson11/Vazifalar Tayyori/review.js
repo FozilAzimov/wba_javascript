@@ -70,3 +70,20 @@
 // let arr = ["Yakshanba", "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba"]
 // let date = new Date();
 // console.log(arr[date.getDay()]);
+
+// JSON
+// .json file dasturlashda nima uchun kerak bo'ladi deganda asosan dasturlash tillari o'rtasida ma'lumot almashinisha uchun juda qulay hisoblanadi.
+// Bu ma'lumotlar asosan object va array dan tashkil topgan bo'ladi.Bu .json file juda yengil, va barcha dasturlash tillari tushinadigan file hisoblanadi.
+// BeckEnd va FrontEnd o'rtasida barcha transferlar json file orqali amalga oshiriladi.
+
+// let obj = {
+//   id: 1,
+//   name: "Foziljon",
+//   surname: "Azimov",
+//   age: 22,
+//   status: "Student"
+// }
+// localStorage.setItem("nomi",JSON.stringify(obj,["name","age"],30))
+// let res = localStorage.getItem("nomi");
+// console.log(JSON.parse(res));
+// console.log(JSON.stringify(obj,["name","age"],10));
