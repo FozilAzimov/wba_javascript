@@ -5,5 +5,103 @@
     "surname": "Azimov",
     "age": 22,
     "status": "Student"
+  },
+  {
+    "id": 2,
+    "name": "Azimjon",
+    "surname": "Aliyev",
+    "age": 25,
+    "status": "Student"
+  },
+  {
+    "id": 3,
+    "name": "Abror",
+    "surname": "Berdiyev",
+    "age": 22,
+    "status": "Student"
+  },
+  {
+    "id": 4,
+    "name": "Shuhrat",
+    "surname": "Qurbonov",
+    "age": 21,
+    "status": "Student"
+  },
+  {
+    "id": 5,
+    "name": "Mirkomil",
+    "surname": "Norqulov",
+    "age": 24,
+    "status": "Student"
+  },
+  {
+    "id": 6,
+    "name": "Muhammadali",
+    "surname": "Hamzayev",
+    "age": 23,
+    "status": "Student"
+  },
+  {
+    "id": 7,
+    "name": "Bekzod",
+    "surname": "G'aniyev",
+    "age": 23,
+    "status": "Student"
+  },
+  {
+    "id": 8,
+    "name": "Qobiljon",
+    "surname": "Toshmurodov",
+    "age": 22,
+    "status": "Student"
+  },
+  {
+    "id": 9,
+    "name": "Og'abek",
+    "surname": "Yusupov",
+    "age": 21,
+    "status": "Student"
+  },
+  {
+    "id": 10,
+    "name": "Abror",
+    "surname": "Tajimuratov",
+    "age": 23,
+    "status": "Student"
+  },
+  {
+    "id": 11,
+    "name": "Akbar",
+    "surname": "Nurullayev",
+    "age": 21,
+    "status": "Student"
+  },
+  {
+    "id": 12,
+    "name": "Kamola",
+    "surname": "Aralbaeva",
+    "age": 22,
+    "status": "Studentka"
+  },
+  {
+    "id": 13,
+    "name": "Arzaym",
+    "surname": "Dijenbaeva",
+    "age": 23,
+    "status": "Studentka"
+  },
+  {
+    "id": 14,
+    "name": "Suxrob",
+    "surname": "Sotvoldiyev",
+    "age": 23,
+    "status": "Student"
+  },
+  {
+    "id": 15,
+    "name": "Nazarboy",
+    "surname": "Nazarov",
+    "age": 23,
+    "status": "Student"
   }
 ]
