@@ -38,4 +38,9 @@
 // Qolgnlari ham shu holatda ishlaydi.
 
 // new Map() va WeakMap() , new Set() va WeakSet() bir biriga o'xshash. Bitta farqi new Map() va new Set() ning qiymati keyinchalik null bo'lib qolsa oldingi ma'lumotlar xotiradan o'chib ketmaydi.
-// WeakMap() va WeakSet() da esa qiymati keyinchalik null bo'lib qolsa oldingi qiymatlarini xotiradan o'chiradi. Ya'ni garbage collection ga tushadi.
+// new WeakMap() va new WeakSet() da esa qiymati keyinchalik null bo'lib qolsa oldingi qiymatlarini xotiradan o'chiradi. Ya'ni garbage collection ga tushadi.
+// new WeakMap() => set(), get(), has(), delete();
+// new WeakSet() => add(), has(), delete();
+
+// Recursion functions
+// recursion function deb o'zini o'zi chaqiruvchi funcsiyalarga aytiladi. recursion functionsni ishlatishdan maqsad proectni tezlashtirish hisoblanadi.
