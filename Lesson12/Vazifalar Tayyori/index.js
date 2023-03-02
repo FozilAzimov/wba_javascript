@@ -1,4 +1,4 @@
-// Homework
+// Homework --> recursion functions
 
 // 1).
 // let func = (n) => n <= 1 ? n : n + func(--n);
@@ -67,4 +67,4 @@
 //   console.log(data.value);
 //   if(data.next) func(data.next);
 // }
-// func(list);...
+// func(list);
