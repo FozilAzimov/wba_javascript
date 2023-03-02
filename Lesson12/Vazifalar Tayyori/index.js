@@ -67,4 +67,4 @@
 //   console.log(data.value);
 //   if(data.next) func(data.next);
 // }
-// func(list);
+// func(list);...
