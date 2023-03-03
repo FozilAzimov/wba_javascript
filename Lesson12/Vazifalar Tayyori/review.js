@@ -44,3 +44,10 @@
 
 // Recursion functions
 // recursion function deb o'zini o'zi chaqiruvchi funcsiyalarga aytiladi. recursion functionsni ishlatishdan maqsad proectni tezlashtirish hisoblanadi.
+// Misol:
+// let func = (n)=>{
+//   console.log(n);
+//   if(n==1) return n;
+//   func(--n);
+// }
+// func(5)
