@@ -42,6 +42,23 @@
 // new WeakMap() => set(), get(), has(), delete();
 // new WeakSet() => add(), has(), delete();
 
+// let obj = { name: "IT name" }
+// let map = new WeakMap([[obj, "webbrain"]]);
+// console.log(map);
+// console.log(map.get(obj));
+
+// let user = [
+//   { name: "webbrain" },
+//   { status: "Talaba" },
+//   { year: 2019 },
+// ]
+
+// let set = new WeakSet()
+// set.add(user[0]).add(user[1]);
+// console.log(set.has(user[0]));
+// console.log(set.has(user[1]));
+// console.log(set.has(user[2]));
+
 // Recursion functions
 // recursion function deb o'zini o'zi chaqiruvchi funcsiyalarga aytiladi. recursion functionsni ishlatishdan maqsad proectni tezlashtirish hisoblanadi.
 // Misol:
