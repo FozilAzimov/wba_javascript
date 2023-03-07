@@ -1,5 +1,5 @@
 
-// scope, old var, new Function(), closure, IIFE, NFE, function object, setTimeout(), setInterval(), call(), apply(), bind();
+// scope, old var, new Function(), closure, IIFE, NFE, global object(window, globalThis, global), function object, setTimeout(), setInterval(), call(), apply(), bind();
 
 // 1). JavaScriptda 3 xil scope mavjud. global scope, locale scope, block scope.
 
@@ -35,7 +35,7 @@
 // func();
 
 // 3).
-// JavaScriptda oldinlari var veriabledan foydalanilgan.
+// JavaScriptda oldinlari 'var' veriabledan foydalanilgan.
 // var biz bilamiz global veriable hisoblanadi. Ya'ni scope ichida declare qilingan bo'lsa ham tashqarida chaqirilsa natija to'g'ri chiqaveradi.
 
 
@@ -49,13 +49,34 @@
 // })();
 
 // 5).
+// Function Object.
+// Biz funcsiya orqali objectga  key lar biriktirishimiz mumkin. Undan tashqari funcsya orqali object qiymatini olishimiz mumkin.
+
+// Sodda misol:
+// let obj = {};
+// let func = () => {
+//   obj.name = 'webbrain';
+// }
+// func();
+// console.log(obj.name);
+
+// O'rta misol:
+// let moment = ()=>{
+//   moment.locale=()=>{
+//     console.log(Date.now());
+//   }
+// }
+// moment();
+// moment.locale();
+
+// 6).
 // JavaScriptda global object tushinchasi mavjud.
 // - window --> bu faqat DOM bilan ishlatiladi.
 // - globalThis --> bu faqat javascriptda ishlaydi.
 // - global --> bu faqat node js bilan ishlaydi.
 // Bu global objectlar javascriptda nima element mavjud bo'lsa hammasi shuni ichida joylashadi.
 
-// 6).
+// 7).
 // NFE - (Named Function Expression) deyiladi. Bu NFE ishlatilishidan maqsad ma'lum funcsiyaga qo'shimcha name biriktirishdir. Ya'ni funcsiya agar recursion bo'lsa shu recursiya haqida ma'no anglatib turadi. Yangi name faqat shu funcsiya ichida ishlaydi.
 // Misol:
 // let func = function calc(n) {
@@ -95,3 +116,40 @@
 // setInterval(colback function, time);
 // buning ham strukturasi setTimeoutga oxshaydi. Lekin bu belgilangan time oralig'ida doimiy ishlaydi ya'ni Infinity bo'lib qoladi.
 // buni ko'proq soat yaratishlarda ishlatiladi.
+
+// 10).
+// call(), apply(), bind();
+// Bularni ishlatishdan maqsad - contextga qiymat biriktirish, uni update qilish uchun ishlatiladi.
+// Sintacsis:
+
+// call()
+// let obj = {
+//   name: 'webbrain',
+//   age: 22,
+// }
+// function func(title) {
+//   console.log(this.name, this.age, title);
+// }
+// func.call(obj, "IT Center");
+
+// apply()
+// let obj = {
+//   year: 2001,
+//   status: "Talaba",
+// }
+// let func = function (id, fullname) {
+//   console.log(id, this.year, this.status, fullname);
+// }
+// func.apply(obj, [1, "Azimov Foziljon"])
+
+// bind();
+// let obj = {
+//   id:2,
+//   name:"Webbrain",
+//   surname:"Academy",
+//   status:"IT Center",
+// }
+// function func(n){
+//   console.log(this.id, this.name, this.surname, this.status,n);
+// }
+// func.bind(obj,5)();
