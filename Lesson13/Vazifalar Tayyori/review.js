@@ -153,3 +153,5 @@
 //   console.log(this.id, this.name, this.surname, this.status,n);
 // }
 // func.bind(obj,5)();
+
+// shu holatda bularning ham bir biridan farqi bor. call(), apply(), bind() sintaksis bir xil farqlari yuqoridagi misollarda ko'rsatilgan.
