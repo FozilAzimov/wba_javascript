@@ -155,3 +155,137 @@
 // func.bind(obj,5)();
 
 // shu holatda bularning ham bir biridan farqi bor. call(), apply(), bind() sintaksis bir xil farqlari yuqoridagi misollarda ko'rsatilgan.
+
+
+// Praktik darsdagi codes
+
+// {
+//   // block scope
+// }
+
+// function f() {
+//   // locale scope
+// }
+// if () {
+//   // locale scope
+// }
+// for () {
+//   // locale scope
+// }
+
+
+// global scope
+
+// {
+//   var a = "webbrain";
+// }
+
+// function f() {
+//   a = 'webbrain academy';
+// }
+
+// console.log(a);
+
+// closure
+
+// function f(){
+//   let name = "webbrain academy";
+//   function func(){
+//     console.log(name);
+//   }
+//   func()
+// }
+// f()
+
+// var a = 3;
+
+// var a = 5;
+
+// console.log(a);
+
+// (
+//   function () {
+//     var name = "webbrain";
+//     // console.log(name);
+//   }
+// )();
+
+// window, globalThis, global;
+
+// 1).
+// let obj = {};
+// let func = ()=>{
+//   obj.name="webbrain";
+//   obj.surname = "academy";
+// }
+// func()
+// console.log(obj);
+
+// 2).
+
+// function func() {
+//   func.locale = function () {
+//     console.log(Date.now());
+//   }
+// }
+// func()
+// func.locale();
+
+
+// let func = function recursion(n){
+//   if(n<=1){
+//     console.log(n);
+//     return n;
+//   };
+//   console.log(n);
+//   recursion(n-1);
+// }
+// func(5)
+
+
+// let func = new Function(`
+// let webbrain = "avademy";
+// console.log(webbrain)`)
+// func()
+
+// let obj = {
+//   name: "webbrain",
+//   age: 4,
+// }
+// console.log(obj.name, obj.age);
+
+// setTimeout(()=>{
+
+// console.log("salom");
+
+// },0)
+
+// console.log("Alik");
+
+// setInterval(() => {
+//   console.log(5);
+// }, 1000);
+
+
+// let obj = {
+//   name: "webbrain",
+//   age: 4,
+// }
+// let obj2 = {
+//   name: "Academy",
+//   age: 2,
+// }
+// let obj3 = {
+//   name: "Digitl",
+//   age: 5,
+// }
+// let obj4 = {
+//   name: "One",
+//   age: 1,
+// }
+
+// function func(title) {
+//   console.log(this.name, title);
+// }
+
+// func.bind(obj, "IT Center")()
