@@ -1,0 +1,11 @@
+
+1). scope haqida;
+2). closure haida;
+3). old var haqida;
+4). IIFE (Immediately invoked function expression)haqida;
+5). Global Object (window, globalThis, global) haqida;
+6). Function Object haqida;
+7). NFE (Named Function Expression) haqida;
+8). new Function() haqida;
+9). setTimeout(), setInterval() haqida;
+10). call(), apply(), bind() haqida;
