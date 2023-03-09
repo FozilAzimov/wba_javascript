@@ -1,0 +1,22 @@
+
+0). Ma'lumot chaqirish. DDOS Attack.
+
+1). Object.getOwnPropertyDescriptor() - nima?
+2). Object.defineProperty() - nima? 
+Object flags - value,
+	     - writable,
+	     - enumerable,
+	     - configurable   
+(proportys)haqida to'liq gapiring.
+
+3). Object.preventExtensions() - nima? (no add);
+		Object.isExtensible(obj)  // Object.preventExtensions(obj) ning aksi hisblanadi.
+
+4). Object.seal() - nima? (no add, no delete)
+		Object.isSealed(obj)  // Object.seal(obj) ning aksi hisoblanadi.
+
+5). Object.freeze(obj);  // (no delete, no add, no update)
+		Object.isFrozen(obj)  // Object.freeze(obj) ning aksi hisoblanadi.
+
+6). __proto__ - nima?
+7). prototype - nima?
