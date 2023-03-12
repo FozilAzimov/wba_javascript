@@ -1,3 +1,5 @@
+// Class basics
+
 // let obj = {
 //   id: 1,
 //   name: "webbrain",
@@ -216,6 +218,9 @@
 
 // let tezlik = new Teazlik("Quyon")
 // let bori = new Bori("Bori")
+
+
+// Class advenced
 
 // class User {
 // age = 0;

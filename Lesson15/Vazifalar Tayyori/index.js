@@ -1,4 +1,6 @@
-// Homework
+// Homework 
+
+// Code ning xatoligini toping.
 
 // class Animal {
 //   constructor(name) {
