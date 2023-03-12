@@ -222,6 +222,8 @@
 
 // Class advenced
 
+// Class ning vazifasi nima - class objectga template(shablon, struktura) yasash uchun ishlatiladi.
+
 // class User {
 // age = 0;
 // getAge() {
@@ -240,6 +242,7 @@
 // age.getYear()
 // year.getYear()
 
+// static veriable nima? - static veriable classda bitta global verible yasash uchun kerak.
 
 // class User {
 // age = 0;
