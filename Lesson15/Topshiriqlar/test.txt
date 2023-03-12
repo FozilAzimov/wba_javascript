@@ -1,0 +1,12 @@
+
+1). Class - nima?
+2). new Class() - (constructor) - haqida gapiring.
+3). class ichidagi funcsiyaga parametr berilishi - holatlari.
+4). new Class() ga parametr berilishi => constructor(){} - haqida.
+5). computed name - nima?
+6). Inheretance (extends) - nima?
+7). Parent class da Child class ma'lumotlarini ishlatish, "super(props)" - qachon ishlatiladi.
+8). classda static veriable va static function - tushinchasi nima?
+9). "_"public va "#"private - nima? private da get,set ishlatilishi.
+10). instenceof - nima?
+11). class ni objectga qo'shish(Object.assigin(class.prototype, obj));
