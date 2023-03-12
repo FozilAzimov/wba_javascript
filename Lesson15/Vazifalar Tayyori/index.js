@@ -65,4 +65,4 @@
 
 // let rabbit2 = new Rabbit("Rab");
 
-// console.log(rabbit2.hasOwnProperty('name')); 
+// console.log(rabbit2.hasOwnProperty('name'));

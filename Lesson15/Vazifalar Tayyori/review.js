@@ -338,4 +338,4 @@
 // let add = new User()
 // add.getName()
 
-// Bu yerda class blan objectni birlashtiradi prototype.
+// Bu yerda class blan objectni birlashtiradi prototype...
