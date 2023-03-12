@@ -216,3 +216,118 @@
 
 // let tezlik = new Teazlik("Quyon")
 // let bori = new Bori("Bori")
+
+// class User {
+// age = 0;
+// getAge() {
+//   console.log(++this.age);
+// }
+//   year = 0;
+//   getYear() {
+//     console.log(++this.year);
+//   }
+// }
+
+// let bir = new User;
+// let ikki = new User;
+
+// age.getYear()
+// age.getYear()
+// year.getYear()
+
+
+// class User {
+// age = 0;
+// getAge() {
+//   console.log(++this.age);
+// }
+//   static year = 0;
+//   getYear() {
+//     console.log(++User.year);
+//   }
+// }
+
+// let bir = new User;
+// let ikki = new User;
+
+// bir.getYear()
+// bir.getYear()
+// ikki.getYear()
+
+// User.getYear()
+// User.getYear()
+// User.getYear()
+
+// Biz class ning static method didan foydalanib ikkita bir-biriga aloqasi bolmagan constructor larni chaqirsak bizga alohida emas bitta sistema bo'lib ishlaydi.
+
+// class salom {
+//   _name = 'Foziljon';
+//   #protected = "Azimov";
+//   getName() {
+//     console.log(this._name);
+//     console.log(this.#protected);
+//   }
+// }
+
+// let pro = new salom()
+// console.log(pro.#protected); // Error
+// pro.getName();
+
+// Biz (_public) bo'lgan ma'lumotlarni class ichida va tashqarisida bemalol ishlata olamiz. Lekin (#protected) bo'lgan ma'lumotlarni faqat class ichida ishlata olamiz holos.
+
+// class salom {
+//   _name = 'Foziljon';
+//   #protected = "Azimov";
+//   get getName() {
+//     console.log(this.#protected);
+//   }
+//   set getName(value) {
+//     this.#protected = value;
+//     console.log(this.#protected);
+//   }
+// }
+
+// let pro = new salom();
+// pro.getName;
+// pro.getName = "Muhammad"
+// pro.getName = "Abdulloh"
+
+// Protected qiymatlarini gettr, settr orqali o'zgartira olamiz.
+
+// class Arr extends Array{}
+
+// let arr = new Array();
+// console.log(arr.length);
+// console.log(Array.isArray(arr));
+
+// barcha Array methodlarini ishlatib ketsak bo'ladi.
+// extends dan keyn Array yozilsa bu array xususiyatlari shu Arr ga o'tadi.
+// Agar extends dan keyn Object bo'lsa object xususiyatlari o'tadi.
+
+// class Arr extends Array { }
+
+// let arr = new Array()
+// let name1 = []
+// let name2 = () => { }
+// let name3 = "webbran academy"
+// console.log(name1 instanceof Array);
+// console.log(name2 instanceof Object);
+// console.log(name3 instanceof Object);
+
+// Bu yerda (instenceof) bir ma'lumot ikkinchi ma'lumotning copysidanmi, ya'ni o'zagidanmi degan ma'noda keladi.
+
+// class User {
+//   getName() {
+//     console.log("Assalom");
+//   }
+// }
+// let obj = {
+//   getInfo() {
+//     console.log("O'zbekiston");
+//   }
+// }
+// Object.assign(User.prototype, obj);
+// let add = new User()
+// add.getName()
+
+// Bu yerda class blan objectni birlashtiradi prototype.
