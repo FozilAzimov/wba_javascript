@@ -49,7 +49,7 @@
 // Promise =====================================
 // console.log("Boshlanish");
 // let func = new Promise((resolve, reject) => {
-//   setTimeout(() => {
+  //   setTimeout(() => {
 //     if (Date.now() % 2 === 0) {
 //       resolve(`Muammo hal bo'ldi, ${Date.now()}`);
 //     }
@@ -62,6 +62,7 @@
 // func.then((res) => console.log(res)).catch((error) => console.log(error));
 // console.log("Tugash");
 
+// Promise murakkabrog'i =====================================
 // console.log("Boshlanish");
 // let func = new Promise((resolve, reject) => {
 //   setTimeout(() => {
