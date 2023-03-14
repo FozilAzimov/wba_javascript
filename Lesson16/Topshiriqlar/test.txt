@@ -1,0 +1,6 @@
+
+1). try catch - nima uchun ishlatiladi.
+2). collback function nima uchun ishlatiladi.
+3). collback hell - nima?
+4). Promise - haqida gapiring?
+5). async await - nima uchun ishlatiladi?
