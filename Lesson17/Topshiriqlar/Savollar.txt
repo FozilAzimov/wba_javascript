@@ -1,0 +1,6 @@
+
+1). generator function haqida;
+2). generator function da next() parametrini olish;
+3). generator function da loop(for of), sprite operator ishlatilishi;
+4). generator function ga oid misol ko'rsating;
+2). module haqida gapiring(misoli bilan);
