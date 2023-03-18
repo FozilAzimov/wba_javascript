@@ -1,0 +1,5 @@
+
+1). Cuyyr function - nima?
+2). Proxy - haqida gapiring.
+3). Proxy da - get, set, ownKeys, has to'liq misollar bilan tushintiring.
+4). Reflect - nima?
