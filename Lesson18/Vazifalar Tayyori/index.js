@@ -1,1 +1,2 @@
-// no data
+// no data.
+// Vazifa mavjud emas.
