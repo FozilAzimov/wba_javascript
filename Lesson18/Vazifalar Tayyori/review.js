@@ -97,6 +97,7 @@
 // console.log(Reflect.has(obj, "name"));
 // console.log(Reflect.has(obj, "_stir"));
 // console.log(Reflect.has(obj, "age"));
+// console.log( typeof Reflect );
 
 
 // object ichidagi function qiymati boshqa veriablega biriktirilsa, functionning reference uziladi.
