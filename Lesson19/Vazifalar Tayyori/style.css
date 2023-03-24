@@ -1,0 +1,13 @@
+.parent {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+ul > li {
+  padding: 5px;
+}
+
+.red {
+  color: red;
+}
