@@ -1,0 +1,10 @@
+1). DOM - nima?
+2). window, document - nima?
+3). innerHeight, innerWidth (window), title, location;
+4). Nodes va Elements  farqi nimada?
+5). Sellectors - nima?
+6). Style berish qanday bo'ladi.
+7). id name ni veriable sifatida ishlatilishi.
+8). innerHTML, innerText, textContent, hidden
+9). setAttribute(), getAttribute(), removeAttribute(), classList.add(), classList.toggle();
+10). prepend(), append(), before(), after();
