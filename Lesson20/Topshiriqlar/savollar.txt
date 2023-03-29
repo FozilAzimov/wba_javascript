@@ -1,0 +1,7 @@
+1). clientWidth,clientHeight,clientTop,clientLeft,
+2). offsetWidth,offsetHeight,offsetTop,offsetLeft,
+3). scrollTop,scrollLeft,scrollHeight,scrollWidth,
+4). scroll,scrollBy,scrollTo,scrollX,scrollY,
+5). onclick,event,this,
+6). onmouseup(),onmouseover(),onmouseout(),onmousemove(),
+onmouseenter(),onmousedown(),addEventListener();
