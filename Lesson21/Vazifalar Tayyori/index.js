@@ -57,5 +57,28 @@
 
 
 // 4-mashq boshlanishi
+// let parent = document.querySelector(".parent");
+// let i = 1;
+// for (let list of parent.querySelectorAll("li")) {
+//   list.style.position = "relative";
+//   i++;
+// }
 
+// let width = 100;
+// let count = 4;
+// let ul = document.querySelector("ul");
+// let li = document.querySelectorAll("li");
+// let position = 0;
+// parent.querySelector('.lef').onclick = function () {
+//   position += width * count;
+//   position = Math.min(position, 0);
+//   console.log(position);
+//   ul.style.marginLeft = position + 'px';
+// }
+// parent.querySelector('.rig').onclick = function () {
+//   position -= width * count;
+//   position = Math.max(position, -width * (li.length - count));
+//   console.log(position);
+//   ul.style.marginLeft = position + 'px';
+// }
 // 4-mashq tugashi

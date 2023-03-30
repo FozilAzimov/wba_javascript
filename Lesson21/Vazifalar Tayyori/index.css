@@ -4,6 +4,64 @@
   box-sizing: border-box;
 }
 
+/* 4-mashq boshlanishi */
+/* body {
+  display: flex;
+  justify-content: center;
+}
+
+.parent {
+  margin-top: 100px;
+  width: 500px;
+  padding: 10px 50px;
+  border-radius: 15px;
+  background: #d1d1d1;
+  position: relative;
+}
+
+.child {
+  width: 400px;
+  overflow: hidden;
+}
+
+.parent img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.child ul {
+  height: 100px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: margin-left 1s;
+}
+
+.child li {
+  display: inline-block;
+}
+
+.str{
+  position: absolute;
+  padding: 0;
+  display: block;
+  top: 53px;
+}
+.lef{
+  left: 0;
+}
+.rig{
+  right: 0;
+} */
+/* 4-mashq tugashi */
+
+
+
 /* 1-mashq boshlanishi */
 /* .parent {
   width: 500px;
@@ -113,10 +171,3 @@ li {
 } */
 
 /* 3-mashq tugashi */
-
-
-
-
-/* 4-mashq boshlanishi */
-
-/* 4-mashq tugashi */
