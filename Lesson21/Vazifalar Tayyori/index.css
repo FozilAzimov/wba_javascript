@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1-mashq boshlanishi */
+/* .parent {
+  width: 500px;
+  height: 300px;
+  background: rgb(124, 224, 80);
+  border: 10px solid black;
+  font-size: 30px;
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+
+.parent:hover {
+  cursor: pointer;
+}
+
+.koptok {
+  width: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 1s;
+} */
+/* 1-mashq tugashi */
+
+
+/* 2-mashq boshlanishi */
+/* body {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.parent {
+  width: 50%;
+  height: 100px;
+  border: 2px solid red;
+  padding-top: 5px;
+}
+
+img {
+  width: 30px;
+}
+
+span {
+  font-size: 25px;
+}
+
+.child {
+  width: 235px;
+}
+
+.child:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin-left: 35px;
+  display: none;
+}
+
+li {
+  font-size: 18px;
+}
+
+.hidden {
+  display: block;
+}
+
+.str {
+  transform: rotate(90deg);
+} */
+/* 2-mashq tugashi */
+
+
+
+/* 3-mashq boshlanishi */
+/* .parent {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: lightgray;
+}
+
+.child {
+  width: 50%;
+  margin: 3px auto;
+  background: white;
+  padding: 20px;
+  position: relative;
+}
+
+.remove-button {
+  position: absolute;
+  font-size: 20px;
+  top: 0;
+  color: maroon;
+  right: 10px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+} */
+
+/* 3-mashq tugashi */
+
+
+
+
+/* 4-mashq boshlanishi */
+
+/* 4-mashq tugashi */
