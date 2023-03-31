@@ -1,0 +1,54 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* .box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  background: lightblue;
+}
+
+.parent {
+  width: 170px;
+  height: 140px;
+  border: 1px solid red;
+  background: lightgreen;
+}
+
+.child {
+  width: 140px;
+  height: 90px;
+  border: 1px solid blue;
+  background: lightcoral;
+} */
+
+/* table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.red {
+  background: red;
+} */
+/* 
+#mouse{
+  width: 255px;
+  height: 255px;
+  background: lightblue;
+} */
+/* #parent {
+  width: 200px;
+  height: 250px;
+  background: lightblue;
+  border: 2px solid red;
+  overflow: auto;
+} */
