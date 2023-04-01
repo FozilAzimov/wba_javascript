@@ -79,3 +79,36 @@
 //   else return true;
 // })
 // console.log(res);
+
+// let arr = ['olma', 'kivi', 'banan', 'ananas'];
+
+// Savol: 1-si  --> array ichidagi harf sonini toping?
+
+// 1-sini javobi
+// function getCount(ar) {
+//   let res = ar.reduce((summ, curr) => {
+//     for (v of curr) summ += 1;
+//     return summ;
+//   }, 0)
+//   console.log(res);
+// }
+// getCount(arr)
+
+
+// Savol: 2-si  --> array ichidagi elementlarning qay birida funcsiyadan kiritilgan harf bor bo'lsa shu harf katta bo'lib qolsin.
+// Natija: agar n harfi kiritilsa --> ["olma", "kivi", baNaN, aNaNas];
+
+// 2-sini jovobi
+// function getArr(ar, harf) {
+//   let newArr = ar.map(v => {
+//     if (v.includes(harf)) {
+//       let res = v.replaceAll(harf, harf.toUpperCase());
+//       return res;
+//     }
+//     else {
+//       return v
+//     }
+//   })
+//   console.log(newArr);
+// }
+// getArr(arr, "n")
