@@ -1,0 +1,12 @@
+1). Range methods haqida: 
+	setStart(), setEnd(), window.getSelection().arrRange(),setEndBefore(), setEndAfter();
+2). Range edit methods:
+	deleteContents(),
+	extractContents(),
+	cloneContents(),
+	insertNode(newNode),
+	surroundContents(newNode);
+
+3). Select Events:
+  document.onselectiononchange = function(){...}
+  getRangeAt().cloneContents();
