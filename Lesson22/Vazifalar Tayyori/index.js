@@ -1,1 +1,1 @@
-// no data
+// no data  |  ma'lumot yoq
